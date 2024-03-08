@@ -13,6 +13,7 @@ This project is a Library Management System developed in Java, following the MVC
 
 Book:
 Attributes:
+
 • bookName: Name of the book  
 • bookPrice: Price of the book  
 • authorName: Name of the author  

@@ -28,3 +28,30 @@ Methods:
 • getAuthorName(): Returns the name of the author  
 • setAuthorName(String authorName): Sets the name of the author  
 • toString(): Returns a string representation of the book  
+
+Library
+
+• Attributes:-
+
+• libraryName: Name of the library    
+• libraryAddress: Address of the library    
+• pincode: Pincode of the library location  
+• books: List of books in the library  
+
+• Methods:-
+
+• getBooks(): Returns the list of books in the library  
+• setBooks(List<Book> books): Sets the list of books in the library  
+• getLibraryName(): Returns the name of the library  
+• setLibraryName(String libraryName): Sets the name of the library  
+• getLibraryAddress(): Returns the address of the library  
+• setLibraryAddress(String libraryAddress): Sets the address of the library  
+• getPincode(): Returns the pincode of the library location  
+• setPincode(int pincode): Sets the pincode of the library location  
+
+Functionality:
+
+• Add a book to the library
+• Update book details
+• Remove a book from the library
+• Retrieve book details

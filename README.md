@@ -12,6 +12,7 @@ This project is a Library Management System developed in Java, following the MVC
 • Controller: The Controller acts as an intermediary between the Model and the View. It processes user input from the View, interacts with the Model to perform actions such as adding, removing, updating, and deleting books, and updates the View to reflect the changes.
 
 Book:
+
 Attributes:
 
 • bookName: Name of the book  

@@ -19,6 +19,7 @@ Attributes:
 • authorName: Name of the author  
 
 Methods:
+
 getBookName(): Returns the name of the book. 
 setBookName(String bookName): Sets the name of the book.
 getAuthor(): Returns the author of the book.

@@ -2,47 +2,27 @@
 
 Document for Console-Based Library Management System:
 
-Introduction :
-This document describes a console-based library management system (LMS) written in Java. The system allows users to add, remove, update, and search for books within a library.
+A Library Management System (LMS) is a software application designed to automate and manage the operations of a library. It helps librarians and library staff to efficiently organize, catalog, circulate, and manage library resources such as books, journals, multimedia, and other materials.
+This project is a Library Management System developed in Java, following the MVC (Model-View-Controller) architecture. The MVC pattern is used to separate the concerns of the application into three main components:
 
-System Requirements:
-Java Runtime Environment (JRE) 11 or later Scanner class for user input
+• Model: The Model represents the data and business logic of the application. In this project, the Model includes two main entities: Book and Library. The Book entity represents a book with attributes such as name, price, and author name. The Library entity represents a library with attributes such as name, address, pincode, and a list of books.
 
-System Design:
-The system is divided into three main components:
+• View: The View is responsible for presenting the data to the user and receiving user input. In this project, the View would include the user interface components such as forms, tables, and buttons used to interact with the system.
 
-Model: Contains classes representing real-world entities like Library and Book. These classes define the attributes and behaviors of the entities. Controller: Handles user interaction and performs operations on the model. It calls methods on the model classes to add, remove, update, and search for books. View: Responsible for displaying information to the user and getting user input. It utilizes the Scanner class to interact with the user. 4. Functionalities:
+• Controller: The Controller acts as an intermediary between the Model and the View. It processes user input from the View, interacts with the Model to perform actions such as adding, removing, updating, and deleting books, and updates the View to reflect the changes.
 
-Add Book: Allows users to add a new book to the library by specifying its name, author, and price. Remove Book: Users can remove a book from the library by providing its name. Update Book: Users can update the details of an existing book by specifying its name and the attribute they want to change (e.g., name, author, price). Search Book: Users can search for a book by its name and view its details if available.
+Book:
+Attributes:
+BookName: A String variable representing the name or title of the book.
+Author: A String variable representing the author of the book.
+BookPrice: A double variable representing the price of the book.
 
-User Interface (UI):
-The system utilizes a text-based interface where users interact with the system through menus and prompts. The main menu displays options for adding, removing, updating, searching for books, and exiting the system. Sub-menus appear for specific functionalities like updating a book, where users can choose which attribute to modify. Prompts guide users for providing input, such as book name, author, and price.
+Methods:
+getBookName(): Returns the name of the book.
+setBookName(String bookName): Sets the name of the book.
+getAuthor(): Returns the author of the book.
+setAuthor(String author): Sets the author of the book.
+getBookPrice(): Returns the price of the book.
+setBookPrice(double bookPrice): Sets the price of the book.
+toString(): Overrides the toString() method to provide a string representation of the Book object.
 
-Implementation Details:
-The Library class holds information about the library, including its name, address, and pincode. It also maintains a list of Book objects representing the books stored in the library. The Book class stores details about a book, including its name, author, and price. The Controller class handles user interactions. It reads user input from the View and performs the corresponding operations on the Library object. The View class displays menus, prompts, and book information to the user. It also reads user input using the Scanner class.
-
-Testing:
-The system was tested with various test cases to ensure it functions as expected for different scenarios: Adding new books with valid and invalid data. Removing existing and non-existent books. Updating various book attributes. Searching for books with different names.
-
-Deployment
-To run the system, users need to have Java installed and set up the environment variables. They can then compile the source code using a Java compiler and run the generated executable file.
-
-Conclusion
-This document provides an overview of a basic console-based library management system in Java. The system demonstrates essential functionalities for managing library books and user interactions.
-
-Appendix
-Source code: The complete source code for the system can be found in the following files:
-
-Library.java
-
-Book.java
-
-Controller.java
-
-View.java
-
-Sample input/output: A sample interaction with the system showcasing adding, searching, and updating functionalities can be included. This document serves as a starting point for understanding the system's design, functionalities, and implementation details. It can be further expanded to include additional features and functionalities based on specific requirements.
-
-Daigram representation:
-
-Start -> User interacts with View (text-based menu) -> Choose option: |-> Add Book | -> Enter book details (name, author, price) | -> Controller adds book to Library |-> Remove Book | -> Enter book name | -> Controller removes book from Library (if found) |-> Update Book | -> Enter book name to update | -> Find book (Controller) | -> If found: | -> Choose update option (name, author, price) | -> Update book details (Controller) | -> Else: Book not found |-> Get Book | -> Enter book name | -> Controller searches for book in Library | -> If found: Display book details | -> Else: Book not found +-> Exit program End

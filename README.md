@@ -16,6 +16,9 @@ Attributes:
 BookName: A String variable representing the name or title of the book.
 Author: A String variable representing the author of the book.
 BookPrice: A double variable representing the price of the book.
+• bookName: Name of the book  
+• bookPrice: Price of the book  
+• authorName: Name of the author  
 
 Methods:
 getBookName(): Returns the name of the book.
@@ -25,4 +28,11 @@ setAuthor(String author): Sets the author of the book.
 getBookPrice(): Returns the price of the book.
 setBookPrice(double bookPrice): Sets the price of the book.
 toString(): Overrides the toString() method to provide a string representation of the Book object.
+• getBookName(): Returns the name of the book  
+• setBookName(String bookName): Sets the name of the book  
+• getBookPrice(): Returns the price of the book  
+• setBookPrice(double bookPrice): Sets the price of the book  
+• getAuthorName(): Returns the name of the author  
+• setAuthorName(String authorName): Sets the name of the author  
+• toString(): Returns a string representation of the book  
 

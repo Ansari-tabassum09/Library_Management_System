@@ -20,11 +20,10 @@ Attributes:
 
 Methods:
 
-getBookName(): Returns the name of the book. 
-setBookName(String bookName): Sets the name of the book.
-getAuthor(): Returns the author of the book.
-setAuthor(String author): Sets the author of the book.
-getBookPrice(): Returns the price of the book.
-setBookPrice(double bookPrice): Sets the price of the book.
-toString(): Overrides the toString() method to provide a string representation of the Book object.
-
+• getBookName(): Returns the name of the book  
+• setBookName(String bookName): Sets the name of the book  
+• getBookPrice(): Returns the price of the book  
+• setBookPrice(double bookPrice): Sets the price of the book  
+• getAuthorName(): Returns the name of the author  
+• setAuthorName(String authorName): Sets the name of the author  
+• toString(): Returns a string representation of the book  

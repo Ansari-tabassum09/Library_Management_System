@@ -51,7 +51,7 @@ Library
 
 Functionality:
 
-• Add a book to the library
-• Update book details
-• Remove a book from the library
-• Retrieve book details
+• Add a book to the library 
+• Update book details 
+• Remove a book from the library 
+• Retrieve book details 

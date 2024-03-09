@@ -2,7 +2,7 @@
 
 Document for Console-Based Library Management System:
 
-A Library Management System (LMS) is a software application designed to automate and manage the operations of a library. It helps librarians and library staff to efficiently organize, catalog, circulate, and manage library resources such as books, journals, multimedia, and other materials.
+A Library Management System (LMS) is a application designed to automate and manage the operations of a library. It helps librarians and library staff to efficiently organize, catalog, circulate, and manage library resources such as books, journals, multimedia, and other materials.
 This project is a Library Management System developed in Java, following the MVC (Model-View-Controller) architecture. The MVC pattern is used to separate the concerns of the application into three main components:
 
 • Model: The Model represents the data and business logic of the application. In this project, the Model includes two main entities: Book and Library. The Book entity represents a book with attributes such as name, price, and author name. The Library entity represents a library with attributes such as name, address, pincode, and a list of books.

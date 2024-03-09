@@ -58,3 +58,27 @@ Functionality:
 • Remove a book from the library 
 
 • Retrieve book details 
+
+Screenshot of user interaction:
+The application will greet you with a welcome message and prompt you to enter the library:
+![image](https://github.com/Ansari-tabassum09/Library_Management_System/assets/126712690/606a79df-981c-468c-93e7-205961758f41)
+
+
+Add Book:
+![image](https://github.com/Ansari-tabassum09/Library_Management_System/assets/126712690/006a1040-1f89-450a-acd2-a45ed01f37a5)
+
+
+Removed Book:
+![image](https://github.com/Ansari-tabassum09/Library_Management_System/assets/126712690/43c8cec1-e7cf-4e71-9393-e173523c25a6)
+
+
+Get Book:
+![image](https://github.com/Ansari-tabassum09/Library_Management_System/assets/126712690/51ca42f2-bda7-4e71-9336-34f2c1567e8c)
+
+
+Update Book:
+![image](https://github.com/Ansari-tabassum09/Library_Management_System/assets/126712690/a252042d-7806-4862-800a-6139b3b2a02e)
+
+
+
+

@@ -69,14 +69,17 @@ Add Book:
 
 
 Removed Book:
+
 ![image](https://github.com/Ansari-tabassum09/Library_Management_System/assets/126712690/43c8cec1-e7cf-4e71-9393-e173523c25a6)
 
 
 Get Book:
+
 ![image](https://github.com/Ansari-tabassum09/Library_Management_System/assets/126712690/51ca42f2-bda7-4e71-9336-34f2c1567e8c)
 
 
 Update Book:
+
 ![image](https://github.com/Ansari-tabassum09/Library_Management_System/assets/126712690/a252042d-7806-4862-800a-6139b3b2a02e)
 
 
